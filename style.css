@@ -1,0 +1,59 @@
+*{
+    
+}
+
+#header{
+
+    background-color: bisque;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "Hubballi", cursive;
+    text-transform: uppercase;
+
+
+}
+
+#nomefuncao{
+    width: 450px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#nomefuncao h1, h2 {
+    margin: 0;
+    font-size: 20px;
+}
+#contact{
+    list-style-type: none;
+}
+#contact i {
+    width: 30px;
+    color:bisque;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 45% auto ;
+    grid-column-gap: 20px;
+}
+#sidebar, #content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+
+}
+.card h3 {
+    font-family: "Hubballi", cursive;
+}
+.card {
+    font-family: Montserrat;
+    font-size: 12px;
+    border: 1px solid rgba(181, 177, 177, 0.209);
+    border-radius: 15px;
+    padding: 10px;
+
+}
+h3 {
+    font-size: 20px;
+}
